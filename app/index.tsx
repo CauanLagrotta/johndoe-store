@@ -11,7 +11,7 @@ export default function Screen() {
     <SafeAreaView style={styles.container}>
       <Image
         source={require("../assets/logo.png")}
-        style={styles.logo}
+        style={styles.logo} 
         resizeMode="cover"
       />
 
