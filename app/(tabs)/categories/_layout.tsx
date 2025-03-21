@@ -7,6 +7,8 @@ export default function CategoryLayout() {
         name="list"
         options={{ headerShown: false }}
       />
+
+      <Stack.Screen name="[id]" />
     </Stack>
   );
 }
